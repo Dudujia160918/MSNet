@@ -23,4 +23,4 @@
  图像输入保持4倍关系，如：融合图像400*400，多光谱影像100*100
 数据获取地址：
 GF2-FC数据集   https://www.aliyundrive.com/s/ACxd8Euhtyp
-提取码: 49dq
+提取码: XXXX
