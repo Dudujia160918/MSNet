@@ -21,3 +21,6 @@
     vs2015_runtime            14.27.29016          h5e58377_2
     zipp                      3.8.1                    pypi_0    pypi
  图像输入保持4倍关系，如：融合图像400*400，多光谱影像100*100
+数据获取地址：
+GF2-FC数据集   https://www.aliyundrive.com/s/ACxd8Euhtyp
+提取码: 49dq
