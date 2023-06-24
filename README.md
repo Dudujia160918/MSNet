@@ -46,6 +46,5 @@
  
 数据获取地址：
 
-GF2-FC数据集   https://www.aliyundrive.com/s/ACxd8Euhtyp
-
-提取码: XXXX
+GF2-FC数据集 
+https://gblhgk.com/0TDXh 查阅码: qbvk
