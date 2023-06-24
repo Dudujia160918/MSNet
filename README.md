@@ -1,5 +1,5 @@
-# MSNet
-多光谱影像引导的遥感影像道路提取网络
+# MSNet\n
+多光谱影像引导的遥感影像道路提取网络\n
 环境的一些关键配置：
     numpy                     1.21.5                   pypi_0    pypi
     opencv-python             4.6.0.66                 pypi_0    pypi
