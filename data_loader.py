@@ -52,8 +52,6 @@ class RandomCrop(object):
 		top = random.randrange(0, h - new_h,4)
 		left = random.randrange(0, w - new_w,4)
 
-		#image = image[top: top + new_h, left: left + new_w]
-		#label = label[top: top + new_h, left: left + new_w]
 		LBP = LBP[top: top + new_h, left: left + new_w]
 
 		return {'imidx':imidx,'image':image, 'label':label,"LBP":LBP}
@@ -69,13 +67,8 @@ class SalObjDataset(Dataset):
 		return len(self.image_name_list)
 
 	def __getitem__(self,idx):
-		temp = np.expand_dims(cv2.imread(self.image_name_list[idx],0),axis=2)
 		image = io.imread(self.image_name_list[idx])
-		# if self.test:
-		# 	image = np.pad(image, (0, 112), 'constant')
-
 		LBP = io.imread(self.image_name_list_mul[idx])
-
 
 		imidx = np.array([idx])
 		if(0==len(self.label_name_list)):
@@ -263,11 +256,6 @@ class ToTensorLab(object):
 
 		tmpLbl[:,:,0] = label[:,:,0]
 
-		# change the r,g,b to b,r,g from [0,255] to [0,1]
-		#transforms.Normalize(mean = (0.485, 0.456, 0.406), std = (0.229, 0.224, 0.225))
-		# tmpImg = tmpImg.transpose((2, 0, 1))
-		# tmpImg2 = tmpImg2.transpose((2, 0, 1))
-		# tmpLbl = label.transpose((2, 0, 1))
 		imidx = imidx.copy()
 		tmpImg = transforms.ToTensor()(tmpImg.copy())
 		tmpImg2 = transforms.ToTensor()(tmpImg2.copy())
