@@ -43,8 +43,10 @@
     zipp                      3.8.1                    pypi_0    pypi
     
  图像输入保持4倍关系，如：融合图像400 X 400，多光谱影像100 X 100
+ GF2-FC数据获取地址：
+ https://pan.baidu.com/s/1Xs_-SpkuXUzjaRWOoTbT_g?pwd=jwez 提取码: jwez 
  
-数据获取地址：
-
-GF2-FC数据集 
-https://gblhgk.com/0TDXh 查阅码: qbvk
+ 请下载完毕后，删除test_data和train_data中所有的readme文件进行训练/测试
+ 
+ 引用格式：Y. Du, Q. Sheng, W. Zhang, C. Zhu, J. Li, B. Wang, “From local context-aware to non-local: A road extraction network via guidance of multi-spectral image,” ISPRS J. 
+ Photogramm. Remote Sens., vol. 203, pp. 230-245, Sep. 2023, https://doi.org/10.1016/j.isprsjprs.2023.07.026
