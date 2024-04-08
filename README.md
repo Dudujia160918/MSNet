@@ -1,9 +1,9 @@
 # MSNet
 
-多光谱影像引导的遥感影像道路提取网络
+##多光谱影像引导的遥感影像道路提取网络
 
-环境的一些关键配置：
- =============================================
+##环境的一些关键配置：
+ ##=============================================
     numpy                     1.21.5                   pypi_0    pypi
     opencv-python             4.6.0.66                 pypi_0    pypi
     pip                       22.3                     pypi_0    pypi
@@ -27,7 +27,7 @@
  图像输入保持4倍关系，如：融合图像400 X 400，多光谱影像100 X 100
  =============================================
  GF2-FC数据获取地址：
- https://pan.baidu.com/s/1Xs_-SpkuXUzjaRWOoTbT_g?pwd=jwez 提取码: jwez (论文中的实验数据)
+ https://pan.baidu.com/s/1Xs_-SpkuXUzjaRWOoTbT_g?pwd=jwez 提取码: jwez (论文中的实验数据，附以训练好的权重文件)
  完整的全色、多光谱和融合实验数据链接（提供了遥感数据地理坐标，并对数据进行了更新）：
  https://drive.google.com/drive/folders/13IHhLjQbDism4jmAwiLOs52roiOK2OUT?usp=drive_link
  =============================================
