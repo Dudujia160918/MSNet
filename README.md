@@ -32,7 +32,7 @@
  =============================================
  GF2-FC数据获取地址：
  
- https://pan.baidu.com/s/1Xs_-SpkuXUzjaRWOoTbT_g?pwd=jwez 提取码: jwez (论文中的实验数据，附以训练好的权重文件)
+ https://pan.baidu.com/s/1Xs_-SpkuXUzjaRWOoTbT_g?pwd=jwez 提取码: jwez (论文中的实验数据，附已训练好的权重文件)
  
  完整的全色、多光谱和融合实验数据链接（提供了遥感数据地理坐标，并对数据进行了更新）：
  
